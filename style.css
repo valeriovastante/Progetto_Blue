@@ -1,0 +1,234 @@
+:root{
+    --c-a: #1566C0;
+}
+h1,h2,h3,h4,h5{
+    font-family: Righteous;
+    
+}
+*{
+    font-family: roboto;
+}
+
+/* navbar */
+
+.ImgNav{
+    background: linear-gradient(black,rgba(255, 255, 255, 0)), url(media/header.jpg) ;
+    height: 100vh;
+    background-size: cover;
+}
+.waveGrey{
+    background: url(media/wave1.svg);
+    height: 90vh;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -330px;
+    
+}
+.waveWhite{
+    background: url(media/wave2.svg);
+    
+    height: 90vh;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 15px;
+    
+}
+.testoHead{
+    color: white;
+}
+/* fine navbar */
+/* descrizione1 */
+.descrizione1{
+    position: absolute;
+    bottom: -80px;
+}
+.textDescr{
+    color: var(--c-a);
+}
+/* fine descrizione1 */
+/* carte */
+.imgCard1{
+    background:  linear-gradient(black, rgba(255, 255, 255, 0.1), black),url(media/1.png);
+    height: 400px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.scrittaCard{
+    position: relative;
+    top: 100px;
+}
+.imgCard2{
+    background:  linear-gradient(black, rgba(255, 255, 255, 0.1), black),url(media/2.png);
+    height: 400px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.imgCard3{
+    background:  linear-gradient(black, rgba(255, 255, 255, 0.1), black),url(media/3.png);
+    height: 400px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imgCard4{
+    background:  linear-gradient(black, rgba(255, 255, 255, 0.1), black),url(media/4.png);
+    height: 400px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cards{
+    bottom: 400px;
+}
+/* fine carte */
+/* sezione icone inizio */
+.colonnaCustom{
+    border: 2px solid white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 4px 5px 6px 7px rgb(207, 203, 203);
+}
+.titoloIcone{
+    color: var(--c-a);
+}
+.fuoco{
+    color: red;
+    border-radius: 25%;
+    padding: 20px;
+    box-shadow: 4px 5px 6px 7px rgb(207, 203, 203);
+}
+.foglia{
+    color: green;
+    border-radius: 25%;
+    padding: 25px;
+    box-shadow: 4px 5px 6px 7px rgb(207, 203, 203);
+}
+
+.campana{
+    color: yellow;
+    border-radius: 25%;
+    padding: 20px;
+    box-shadow: 4px 5px 6px 7px rgb(207, 203, 203);
+    
+}
+.scatola{
+    color: var(--c-a);
+    border-radius: 25%;
+    padding: 20px;
+    box-shadow: 4px 5px 6px 7px rgb(207, 203, 203);
+    
+    
+}
+.strano{
+    border-radius: 25%;
+    padding: 20px;
+    box-shadow: 4px 5px 6px 7px rgb(207, 203, 203);
+    
+}
+.scudo{
+    border-radius: 25%;
+    padding: 20px;
+    box-shadow: 4px 5px 6px 7px rgb(207, 203, 203);
+}
+/* sezione icone fine */
+/* inizio contenitori */
+.custmCol1{
+    box-shadow: 4px 5px 6px 7px rgb(207, 203, 203);
+    border-radius: 20px;
+}
+.pointCust{
+    color: var(--c-a);
+}
+.bussolaCust{
+    color: var(--c-a);
+}
+/* fine contenitori */
+/* sezione immagini rotonte */
+
+.fotoCerchio{
+    height: 250px;
+    width: 250px;
+    padding: 3px;
+    border-radius: 50%;
+    border: 3px solid var(--c-a);
+}
+/* fine sezione immagini rotonte */
+/* inizio sezione scaletta */
+.titoloscaletta{
+    color: var(--c-a);
+}
+.bordoesterno{
+    border-right:3px solid var(--c-a);
+    position: relative;
+}
+
+.bordoesterno ::after{
+    content: "";
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--c-a);
+    position: absolute;
+    top: 0;
+    right: -11px;
+    border-radius: 50%;
+    background-color: white;
+}
+.coloreh4{
+    color: var(--c-a);
+}
+.bordointerno{
+    border-left:3px solid var(--c-a);
+    position: relative;
+    left: -2px;
+    
+}
+.bordointerno ::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--c-a);
+    position: absolute;
+    top: 0;
+    left: -11px;
+    border-radius: 50%;
+    background-color: white;
+}
+.bordointerno2{
+    
+    border-left:3px solid var(--c-a);
+    position: relative;
+    left: 10px;
+    
+    
+}
+.bordointerno2 ::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--c-a);
+    position: absolute;
+    top: 0;
+    left: -11px;
+    border-radius: 50%;
+    background-color: white;
+}
+.btn{
+    height: 35px;
+    width: 150px;
+    background-color: var(--c-a);
+    border-radius: 0%;
+    color: white;
+}
+/* fine scaletta */
+/* inizio footer */
+
+.imgBack{
+    background:linear-gradient(rgb(255, 255, 255),rgba(0, 0, 0, 0.753)), url(media/footer.jpg) ;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* fine footer */
